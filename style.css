@@ -36,6 +36,8 @@
     --letter-spacing-heading: 0rem;
 
     --border-radius-md: 20px;
+
+    --box-shadow-md: 0 25px 25px 0 rgb(0 0 0 / 4.77%);
   }
 }
 
@@ -77,11 +79,12 @@
     padding: 16px 16px 40px 16px;
     aspect-ratio: 0.64;
     max-width: 320px;
-    background-color: var(--color-neutral-100);
-    border-radius: var(--border-radius-md);
     text-align: center;
     text-wrap: balance;
     user-select: none;
+    background-color: var(--color-neutral-100);
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--box-shadow-md);
   }
 
   .card__image {
